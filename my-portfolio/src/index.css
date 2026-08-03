@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Infinite Scrolling Animation */
+/* 3D Roll Transitions for Project Cards */
+@keyframes rollNext {
+  0% { 
+    transform: translateX(40%) rotateY(-20deg) scale(0.85); 
+    opacity: 0; 
+  }
+  100% { 
+    transform: translateX(0) rotateY(0) scale(1); 
+    opacity: 1; 
+  }
+}
+
+@keyframes rollPrev {
+  0% { 
+    transform: translateX(-40%) rotateY(20deg) scale(0.85); 
+    opacity: 0; 
+  }
+  100% { 
+    transform: translateX(0) rotateY(0) scale(1); 
+    opacity: 1; 
+  }
+}
+
+.animate-roll-next {
+  animation: rollNext 0.7s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+.animate-roll-prev {
+  animation: rollPrev 0.7s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
