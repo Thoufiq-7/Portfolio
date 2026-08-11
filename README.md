@@ -1,4 +1,4 @@
-# Portfolio# 🚀 Developer Portfolio | Mohammed Thoufiq
+# 🚀  Developer Portfolio | Mohammed Thoufiq
 
 A modern, high-performance developer portfolio built with **React**, **Tailwind CSS**, and interactive UI components. Features a floating glassmorphism design, custom zig-zag timeline animations, interactive technical skill cards, and a dynamic 3D project showcase with multi-directional ambient glowing cards.
 
